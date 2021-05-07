@@ -1,6 +1,6 @@
 //
-//  swiftUiApp.swift
-//  swiftUi
+//  tutsApp.swift
+//  tuts
 //
 //  Created by Apple on 07/05/2021.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct swiftUiApp: App {
+struct tutsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
