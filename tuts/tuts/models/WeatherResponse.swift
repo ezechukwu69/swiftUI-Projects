@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - Welcome
 struct WeatherResponse: Codable {
-    let lat, lon: Int
+    let lat, lon: Double
     let timezone: String
     let timezoneOffset: Int
     let current: Current
@@ -36,7 +36,7 @@ struct Current: Codable, Identifiable {
     let clouds, visibility: Int
     let windSpeed: Double
     let windDeg: Int
-    let windGust: Double
+    let windGust: Double?
     let weather: [Weather]
     let rain: Rain?
     let pop: Double?
@@ -91,6 +91,7 @@ enum Description: String, Codable {
     case moderateRain = "moderate rain"
     case overcastClouds = "overcast clouds"
     case scatteredClouds = "scattered clouds"
+    case heavyIntensityRain = "heavy intensity rain"
 }
 
 // MARK: - Daily

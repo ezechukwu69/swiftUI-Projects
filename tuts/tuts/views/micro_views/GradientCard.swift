@@ -10,6 +10,7 @@ import SwiftUI
 struct GradientCard: View {
     
     @State private var hovered: Bool = false
+    @State private var unit: String = SettingsViewModel.shared.$unit.wrappedValue
     
     let weatherDescription: String
     let degree: String
@@ -27,7 +28,7 @@ struct GradientCard: View {
             Text("\(weatherDescription)")
                 .font(.title2)
                 .padding(.top, 50)
-            Text("\(degree)°C")
+            Text("\(degree)\(unit == "Metric" ? "°C" : unit == "Imperial" ? "°F" : "K")")
                 .font(.system(size: 180, weight: .bold, design: .rounded))
                 .minimumScaleFactor(0.0001)
                 .lineLimit(1)
@@ -39,11 +40,11 @@ struct GradientCard: View {
     
     var mainDescription: some View {
         ZStack {
-                        gradient
-                        itemDescription
-                    }
-                    .frame(width: 330, height: 370)
-                    .cornerRadius(100)
+            gradient
+            itemDescription
+        }
+        .frame(width: 330, height: 370)
+        .cornerRadius(100)
     }
     
     var datedescription: some View {
@@ -69,6 +70,7 @@ struct GradientCard: View {
             datedescription
             imageView
         }
+        .padding(.top)
     }
 }
 
@@ -78,6 +80,5 @@ struct GradientCard_Previews: PreviewProvider {
                      degree: "25",
                      date: "Monday, 12 June",
                      image: "https://openweathermap.org/img/wn/10n@2x.png")
-            .preferredColorScheme(.light)
     }
 }

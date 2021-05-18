@@ -11,13 +11,17 @@
 		185575A42645449300445AA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185575A32645449300445AA8 /* ContentView.swift */; };
 		185575A62645449600445AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185575A52645449600445AA8 /* Assets.xcassets */; };
 		185575A92645449600445AA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185575A82645449600445AA8 /* Preview Assets.xcassets */; };
+		186C59E5265404970073C3A9 /* LocationManaager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C59E4265404970073C3A9 /* LocationManaager.swift */; };
 		187D01652645E84600F912C5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D01642645E84600F912C5 /* ImageView.swift */; };
 		187D01672645EE1300F912C5 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D01662645EE1300F912C5 /* ImageViewModel.swift */; };
+		187D12E726541A40000A4FAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D12E626541A40000A4FAD /* SettingsView.swift */; };
+		187D12E926541E99000A4FAD /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D12E826541E99000A4FAD /* SettingsViewModel.swift */; };
 		18A9BFD12645B24700A41319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9BFD02645B24700A41319 /* HomeView.swift */; };
 		18A9BFD42645B29200A41319 /* GradientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9BFD32645B29200A41319 /* GradientCard.swift */; };
 		18A9BFD92645D10F00A41319 /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9BFD82645D10F00A41319 /* NetworkUtil.swift */; };
 		18A9BFDB2645D2C100A41319 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9BFDA2645D2C100A41319 /* WeatherResponse.swift */; };
 		18A9BFDD2645DCE500A41319 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9BFDC2645DCE500A41319 /* HomeViewModel.swift */; };
+		18B17AB3264AC9CC00421A28 /* ABeeZee in Resources */ = {isa = PBXBuildFile; fileRef = 18B17AB2264AC9CC00421A28 /* ABeeZee */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +31,17 @@
 		185575A52645449600445AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185575A82645449600445AA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		185575AA2645449600445AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C59E4265404970073C3A9 /* LocationManaager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManaager.swift; sourceTree = "<group>"; };
 		187D01642645E84600F912C5 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		187D01662645EE1300F912C5 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		187D12E626541A40000A4FAD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		187D12E826541E99000A4FAD /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		18A9BFD02645B24700A41319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		18A9BFD32645B29200A41319 /* GradientCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCard.swift; sourceTree = "<group>"; };
 		18A9BFD82645D10F00A41319 /* NetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtil.swift; sourceTree = "<group>"; };
 		18A9BFDA2645D2C100A41319 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		18A9BFDC2645DCE500A41319 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		18B17AB2264AC9CC00421A28 /* ABeeZee */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ABeeZee; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 				185575A12645449300445AA8 /* tutsApp.swift */,
 				185575A32645449300445AA8 /* ContentView.swift */,
 				185575A52645449600445AA8 /* Assets.xcassets */,
+				18B17AB2264AC9CC00421A28 /* ABeeZee */,
 				185575AA2645449600445AA8 /* Info.plist */,
 				185575A72645449600445AA8 /* Preview Content */,
 			);
@@ -92,6 +101,7 @@
 			children = (
 				18A9BFD22645B25D00A41319 /* micro_views */,
 				18A9BFD02645B24700A41319 /* HomeView.swift */,
+				187D12E626541A40000A4FAD /* SettingsView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -118,6 +128,7 @@
 			children = (
 				18A9BFDC2645DCE500A41319 /* HomeViewModel.swift */,
 				187D01662645EE1300F912C5 /* ImageViewModel.swift */,
+				187D12E826541E99000A4FAD /* SettingsViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				18A9BFD82645D10F00A41319 /* NetworkUtil.swift */,
+				186C59E4265404970073C3A9 /* LocationManaager.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B17AB3264AC9CC00421A28 /* ABeeZee in Resources */,
 				185575A92645449600445AA8 /* Preview Assets.xcassets in Resources */,
 				185575A62645449600445AA8 /* Assets.xcassets in Resources */,
 			);
@@ -207,7 +220,10 @@
 				18A9BFD12645B24700A41319 /* HomeView.swift in Sources */,
 				18A9BFD42645B29200A41319 /* GradientCard.swift in Sources */,
 				185575A42645449300445AA8 /* ContentView.swift in Sources */,
+				186C59E5265404970073C3A9 /* LocationManaager.swift in Sources */,
 				185575A22645449300445AA8 /* tutsApp.swift in Sources */,
+				187D12E726541A40000A4FAD /* SettingsView.swift in Sources */,
+				187D12E926541E99000A4FAD /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

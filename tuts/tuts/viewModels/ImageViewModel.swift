@@ -18,7 +18,7 @@ class ImageViewModel: ObservableObject {
             .sink { (completer) in
                 switch completer {
                 case .failure(let err): print(err.localizedDescription)
-                case .finished: print("Data gotten")
+                case .finished: break
                 }
             } receiveValue: {[weak self] data in
                 self?.image = data
